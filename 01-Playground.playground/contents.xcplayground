@@ -2,6 +2,7 @@
 <playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='var print for'/>
+        <page name='print sin'/>
         <page name='Unicode Chars'/>
         <page name='Unicode Range'/>
         <page name='Unicode Skin'/>
@@ -11,6 +12,5 @@
         <page name='UIGraphics Text'/>
         <page name='UIGraphics UIImage'/>
         <page name='UIGraphic 10PRINT'/>
-        <page name='Javascript to Swift strings'/>
     </pages>
 </playground>
