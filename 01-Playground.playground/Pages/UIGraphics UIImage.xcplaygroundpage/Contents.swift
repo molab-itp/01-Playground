@@ -6,7 +6,7 @@ import UIKit
 let dim = 1024.0
 let backLevel = 0.8
 
-let renderer = UIGraphicsImageRenderer(size: CGSize(width: dim, height: dim))
+let renderer = UIGraphicsImageRenderer(size: CGSize(width: dim, height: dim*2))
 
 var image = renderer.image { (context) in
   
@@ -21,11 +21,11 @@ var image = renderer.image { (context) in
   let y = 0.0
 
   let sysImg = UIImage(systemName: "trash.circle.fill")!
-  let irect = CGRect(x: 0, y: y, width: bounds.width, height: bounds.height)
-  sysImg.draw(in: irect);
+//  let irect = CGRect(x: 0, y: y, width: bounds.width, height: bounds.height)
+//  sysImg.draw(in: irect);
 
   let font = UIFont.systemFont(ofSize: bounds.width * 0.8)
-  let string = NSAttributedString(string: "A",
+  let string = NSAttributedString(string: "👨🏿",
                                   attributes: [.font: font,
                                                .foregroundColor: UIColor.red])
   string.draw(at: CGPoint(x: x, y: y))
