@@ -1,6 +1,9 @@
 
 // Unicode regions
 
+
+print(0x1F1E6)
+
 // REGIONAL INDICATOR SYMBOL LETTER U (U+1F1FA)
 // REGIONAL INDICATOR SYMBOL LETTER S (U+1F1F8)
 let regionCharUS: Character = "\u{1F1FA}\u{1F1F8}"

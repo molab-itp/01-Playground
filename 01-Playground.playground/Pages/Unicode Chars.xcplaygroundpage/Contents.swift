@@ -14,7 +14,14 @@ import Foundation
 //"Faces", emojis: "😀😃😄😁😆😅😂🤣🥲☺️😊😇🙂🙃😉😌😍🥰😘😗😙😚😋😛😝😜🤪🤨🧐🤓😎🥸🤩🥳😏😞😔😟😕🙁☹️😣😖😫😩🥺😢😭😤😠😡🤯😳🥶😥😓🤗🤔🤭🤫🤥😬🙄😯😧🥱😴🤮😷🤧🤒🤠")
 
 let ch1 = "🐥"
+print("ch1.unicodeScalars", ch1.unicodeScalars)
+
 print(Array(ch1.unicodeScalars))
+let a = Array(ch1.unicodeScalars)
+print(a)
+//print(a[1])
+
+
 
 let ch2 = "🦔"
 print(Array(ch2.unicodeScalars))
