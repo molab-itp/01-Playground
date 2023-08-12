@@ -3,6 +3,8 @@
     <pages>
         <page name='var print for'/>
         <page name='print sin'/>
+        <page name='generative random'/>
+        <page name='generative serial'/>
         <page name='Unicode Chars'/>
         <page name='Unicode Range'/>
         <page name='Unicode Skin'/>
