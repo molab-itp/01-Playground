@@ -18,13 +18,13 @@ print("ch1.unicodeScalars", ch1.unicodeScalars)
 
 print(Array(ch1.unicodeScalars))
 let a = Array(ch1.unicodeScalars)
-print(a)
+print("a", a)
 //print(a[1])
 
 
 
 let ch2 = "🦔"
-print(Array(ch2.unicodeScalars))
+print("ch2", Array(ch2.unicodeScalars))
 
 // https://developer.apple.com/documentation/swift/string
 // https://en.wikipedia.org/wiki/Emoji#Unicode_blocks
@@ -36,11 +36,11 @@ let str = "🐥🐣🐂🐄🐎🐖🐏🐑"
 //    print(uni)
 //  }
 print("str", str)
-print(str.count)
-print(str[str.startIndex])
-print(str[str.index(str.startIndex, offsetBy: 3)])
+print("str.count", str.count)
+print("str startIndex",str[str.startIndex])
+print("str startIndex offsetBy",str[str.index(str.startIndex, offsetBy: 3)])
 
 let nstr:NSString = "🐥🐣🐂🐄🐎🐖🐏🐑"
 print("nstr:NSString", nstr)
-print(nstr.length)
-print(nstr.substring(with: NSMakeRange(0,2)))
+print("nstr.length", nstr.length)
+print("nstr.substring", nstr.substring(with: NSMakeRange(0,2)))
