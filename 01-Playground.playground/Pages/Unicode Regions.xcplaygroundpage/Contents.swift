@@ -21,7 +21,7 @@ let regionJM = "\u{1F1EF}\u{1F1F2}"
 
 let regionJM2 = "\u{1F1EF}"+"\u{1F1F2}"
 let jstr = String(0x1F1EF)
-print("\(regionJM) \(regionJM2) \(jstr)")
+print("regionJM \(regionJM) regionJM2 \(regionJM2) jstr \(jstr)")
 
 let j1 = String(Character(UnicodeScalar(0x1F1EF)!))
 let m1 = String(Character(UnicodeScalar(0x1F1F2)!))
@@ -38,7 +38,7 @@ func randomRegions(_ n: Int) -> String {
   return str
 }
 let rstr = randomRegions(10)
-print(rstr)
+print("rstr", rstr)
 
 // https://developer.apple.com/documentation/swift/string
 // https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html#ID293

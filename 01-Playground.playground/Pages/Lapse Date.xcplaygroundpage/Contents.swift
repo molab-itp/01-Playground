@@ -1,9 +1,12 @@
 //
+// Using playground to validate code from internet search
+// Source:
+// https://stackoverflow.com/questions/34457434/swift-convert-time-to-time-ago
+//
 // report the time lapsed between two dates
 
 import Foundation
 
-// https://stackoverflow.com/questions/34457434/swift-convert-time-to-time-ago
 
 extension Date
 {
@@ -38,6 +41,6 @@ extension Date
 
 let d0 = Date(timeIntervalSinceReferenceDate: 0)
 let d1 = Date()
-print(d1)
+print("d1", d1)
 let el = d0.getElapsedInterval(to: d1)
-print(el)
+print("el", el)
