@@ -21,7 +21,7 @@ var image = renderer.image { (context) in
   let y = 0.0
     
   let font = UIFont.systemFont(ofSize: bounds.width * 0.8)
-  let string = NSAttributedString(string: "A",
+  let string = NSAttributedString(string: "AB",
                                   attributes: [.font: font,
                                                .foregroundColor: UIColor.red])
   string.draw(at: CGPoint(x: x, y: y))
