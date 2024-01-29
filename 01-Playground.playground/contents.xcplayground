@@ -10,10 +10,7 @@
         <page name='Unicode Skin'/>
         <page name='Unicode Regions'/>
         <page name='UIImaged named'/>
-        <page name='UIGraphics Image draw'/>
-        <page name='UIGraphics Text'/>
-        <page name='UIGraphics UIImage'/>
-        <page name='UIGraphic 10PRINT'/>
         <page name='Lapse Date'/>
+        <page name='dictionary'/>
     </pages>
 </playground>
