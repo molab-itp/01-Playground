@@ -1,9 +1,9 @@
-/*:
- # Welcome to Playgrounds
- This is your *first* playground which is intended to demonstrate:
- * The use of **Quick Look**
- * Placing results **in-line** with the code
- */
+//:
+// # Welcome to Playgrounds
+// This is your *first* playground which is intended to demonstrate:
+// * The use of **Quick Look**
+// * Placing results **in-line** with the code
+//: [Next](@next)
 
 import UIKit
 
@@ -18,5 +18,4 @@ for h in 1...20 {
   m -= 1
 }
 
-//: [Next](@next)
-
+// 2024-01-29 Edit
