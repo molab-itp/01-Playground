@@ -29,5 +29,9 @@ let favoriteIceCream = [
 
 let x = favoriteIceCream["PaulX", default: "Unknown"]
 
+// print("n \(n) n2 \(n2) x \(x) ")
+// apply Xcode suggested fixes:
+print("n \(String(describing: n)) n2 \(String(describing: n2)) x \(x) ")
+
 // https://www.hackingwithswift.com/sixty/2/5/dictionaries
 
