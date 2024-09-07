@@ -26,21 +26,22 @@ extension Date
             arr.append("\(daysPassed) day\(daysPassed == 1 ? "" : "s")")
         }
         if let hoursPassed = interval.hour, hoursPassed > 0 {
-            arr.append("\(hoursPassed) hours\(hoursPassed == 1 ? "" : "s")")
+            arr.append("\(hoursPassed) hour\(hoursPassed == 1 ? "" : "s")")
         }
         if let minutesPassed = interval.minute, minutesPassed > 0 {
-            arr.append("\(minutesPassed) minutes\(minutesPassed == 1 ? "" : "s")")
+            arr.append("\(minutesPassed) minute\(minutesPassed == 1 ? "" : "s")")
         }
         if let secondsPassed = interval.second, secondsPassed > 0 {
-            arr.append("\(secondsPassed) seconds\(secondsPassed == 1 ? "" : "s")")
+            arr.append("\(secondsPassed) second\(secondsPassed == 1 ? "" : "s")")
         }
         
         return arr
     }
 }
 
-let d0 = Date(timeIntervalSinceReferenceDate: 0)
-let d1 = Date()
-print("d1", d1)
-let el = d0.getElapsedInterval(to: d1)
-print("el", el)
+let fromDate = Date(timeIntervalSinceReferenceDate: 0)
+let toDate = Date()
+print("fromDate", fromDate)
+print("toDate", toDate)
+let elapse = fromDate.getElapsedInterval(to: toDate)
+print("elapse", elapse)
